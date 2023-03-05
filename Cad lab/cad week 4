@@ -1,0 +1,29 @@
+Explain what Keystone, CLI programming, and instance creation are in OpenStack.
+
+Keystone :
+
+The identification service component of the OpenStack cloud computing architecture is called Keystone. 
+For all of the OpenStack services, it offers a centralised authentication and permission system. Within the OpenStack system, Keystone enables 
+administrators to create, manage, and revoke user accounts as well as to grant roles and permissions to users and services.
+It supports a number of authentication methods, including identity federation, token-based authentication, and password-based authentication. 
+Role-based access control (RBAC), another feature of Keystone, enables administrators to manage access to resources according to the 
+roles and privileges of users.
+
+CLI Programming
+
+Developers and administrators can communicate with OpenStack services via to the command-line interface (CLI) that OpenStack offers. 
+It is an effective and adaptable method for managing OpenStack resources, such as instances, networks, and storage volumes,  provided 
+through the OpenStack CLI. Shell scripts and other programming languages can be used by developers to automate processes like instance 
+creation and administration using the CLI.
+
+Instance Creation.
+
+Launching a virtual machine (VM) instance on an OpenStack cloud is known as creating an instance in OpenStack. A VM image must be chosen, 
+the instance's computational resources (such as CPU, memory, and storage), and its network settings must be specified. The instance can be 
+accessed via a remote console or a remote desktop client and is launched using the OpenStack Compute service (Nova). The ability to deploy 
+and operate applications on OpenStack clouds is made possible through instance creation, which is a critical component of using OpenStack.
+The steps involved in creating an instance in OpenStack are as follows:
+1.OpenStack dashboard can be accessed here: You must sign in to the OpenStack dashboard in order to create an instance.
+2.Use the Compute Service (Nova): To establish an instance, use the compute service (nova) link on the dashboard.
+3.Specify instance specifics: In order to create an instance, you must specify its name, flavour (size), image, network configuration, and security groups.
+4.Launch the instance: Once the instance's specifics have been established, launch the instance. The instance will be created, and the dashboard will show you its current status.
